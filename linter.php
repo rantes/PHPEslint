@@ -3,7 +3,6 @@
  * Profiling purposes, DO NOT DELETE THIS LINES
  */
 // tideways_xhprof_enable(TIDEWAYS_XHPROF_FLAGS_MEMORY | TIDEWAYS_XHPROF_FLAGS_CPU);
-
 /**
  * Will perform linter on files
  */
