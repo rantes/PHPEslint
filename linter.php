@@ -1,8 +1,4 @@
 <?php
-/** 
- * Profiling purposes, DO NOT DELETE THIS LINES
- */
-// tideways_xhprof_enable(TIDEWAYS_XHPROF_FLAGS_MEMORY | TIDEWAYS_XHPROF_FLAGS_CPU);
 /**
  * Will perform linter on files
  */
@@ -34,12 +30,4 @@ Class Linter {
 
 $Linter = new Linter();
 $Linter->Run();
-
-/** Profiling purposes */
-// $data = tideways_xhprof_disable();
-// $file = 'PHPEslinter.xhprof';
-// file_put_contents(
-//     sys_get_temp_dir()."/{$file}",
-//     serialize($data)
-// );
 ?>
